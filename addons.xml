@@ -140,11 +140,10 @@
 
 <addon
   id="skin.19MatrixWorld"
-  version="4.2.1d"
+  version="4.2.1e"
   name="skin World-beta(Omega)"
   provider-name="Helly,bsoriano">
   <requires>
-    <import addon="xbmc.gui" version="5.17.0"/>
     <import addon="script.favourites" version="8.1.2"/>
   </requires>
   <extension
