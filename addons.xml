@@ -51,7 +51,7 @@
 
 <addon
   id="skin.19MatrixWorld"
-  version="4.2.4"
+  version="4.2.4a"
   name="Skin World-beta2"
   provider-name="Helly,bsoriano,Diggz,Tk,Gb,World,AI">
   <requires>
