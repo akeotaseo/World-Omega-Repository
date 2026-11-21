@@ -51,46 +51,53 @@
 
 <addon
   id="skin.19MatrixWorld"
-  version="4.2.4"
+  version="1.0"
   name="Skin World-beta"
   provider-name="Helly,bsoriano,Diggz,Tk,Gb,ML,World,AI">
   <requires>
+    <import addon="xbmc.gui" version="5.17.0"/>
     <import addon="script.favourites" version="8.1.2"/>
+    <import addon="plugin.image.World" optional="true"/>
+    <import addon="plugin.program.downloader19" optional="true"/>
+    <import addon="plugin.program.downloaderstartup" optional="true"/>
+    <import addon="plugin.program.mypreferences" optional="true"/>
+    <import addon="plugin.program.myselect" optional="true"/>
+    <import addon="plugin.program.simple.favourites" optional="true"/>
+    <import addon="service.world.build" optional="true"/>
+    <import addon="script.embuary.info" optional="true"/>
+    <import addon="script.sites" optional="true"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
-    debugging="flase"
+    debugging="false"
     effectslowdown="0.75">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
-    <summary lang="en_US">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
-    <summary lang="nl">Uitgebreide MOD van Confluence skin origineel door Jezz_X en CCM door Mudislander.</summary>
-    <description lang="en">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
-    <description lang="en_US">Xonfluence is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
-    <description lang="nl">Xonfluence is een MOD van Confluence om een grotere aanpassingsmogelijkheid te geven ten opzichten van de standaard skin (gebaseerd op Mudislander's CCM).</description>
+    <summary lang="el">Τροποποιημένο Xonfluence Skin για το World Build (Kodi Omega).</summary>
+    <summary lang="en">eXtended MOD of Confluence skin for World Build (originally by Jezz_X and Mudislander).</summary>
+    <description lang="el">Ειδικά διαμορφωμένο Skin βασισμένο στο Xonfluence, σχεδιασμένο για πλήρη παραμετροποίηση και άμεση πλοήγηση.[CR][CR][COLOR orange]Σημαντική Σημείωση:[/COLOR] Για να λειτουργήσουν σωστά όλες οι συντομεύσεις, τα widgets και οι καρτέλες του skin, απαιτούνται ορισμένα βασικά πρόσθετα (όπως TheMovieDb Helper, YouTube, script.favourites κ.ά.). Όλα τα απαραίτητα εργαλεία, πρόσθετα και υπηρεσίες θα τα βρείτε διαθέσιμα μέσα από το [B][COLOR gold]World Repository[/COLOR][/B] και μέσω του [B][COLOR orange]World Build[/COLOR][/B].</description>
+    <description lang="en">Customised Xonfluence MOD skin designed for World Build.[CR][CR][COLOR orange]Note:[/COLOR] For full functionality of all shortcuts and widgets, essential addons (such as TheMovieDb Helper, YouTube, script.favourites, etc.) are required. All supporting tools and addons can be found in the [B][COLOR gold]World Repository[/COLOR][/B] and via [B][COLOR orange]World Build[/COLOR][/B].</description>
+    <disclaimer lang="el">Η χρήση γίνεται με δική σας ευθύνη.</disclaimer>
     <disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
-    <disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
-    <disclaimer lang="nl">Wie zijn billen brandt - moet op de blaren zitten</disclaimer>
     <platform>all</platform>
-	  <license>GNU General Public License version 2</license>
-	  <forum>https://forum.kodi.tv/showthread.php?tid=346302</forum>
-	  <website></website>
-	  <email></email>
-	  <source>https://github.com/bartolomesoriano/skin.xonfluence</source>
+    <license>GNU General Public License version 2</license>
+    <forum>https://kodi.tv</forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com</source>
     <assets>
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
-	    <screenshot>resources/screenshot-01.jpg</screenshot>
-	    <screenshot>resources/screenshot-02.jpg</screenshot>
-	    <screenshot>resources/screenshot-03.jpg</screenshot>
-	    <screenshot>resources/screenshot-04.jpg</screenshot>
-	    <screenshot>resources/screenshot-05.jpg</screenshot>
-	    <screenshot>resources/screenshot-06.jpg</screenshot>
-	    <screenshot>resources/screenshot-07.jpg</screenshot>
-	    <screenshot>resources/screenshot-08.jpg</screenshot>
-	    <screenshot>resources/screenshot-09.jpg</screenshot>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshot-04.jpg</screenshot>
+      <screenshot>resources/screenshot-05.jpg</screenshot>
+      <screenshot>resources/screenshot-06.jpg</screenshot>
+      <screenshot>resources/screenshot-07.jpg</screenshot>
+      <screenshot>resources/screenshot-08.jpg</screenshot>
+      <screenshot>resources/screenshot-09.jpg</screenshot>
     </assets>
     <news>See changelog for latest changes</news>
   </extension>
