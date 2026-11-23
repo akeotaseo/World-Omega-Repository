@@ -51,7 +51,7 @@
 
 <addon
   id="skin.19MatrixWorld"
-  version="1.0a"
+  version="1.1"
   name="Skin World-beta"
   provider-name="Helly,bsoriano,Diggz,Tk,Gb,ML,World,AI">
   <requires>
@@ -65,6 +65,7 @@
     <import addon="plugin.program.simple.favourites" optional="true"/>
     <import addon="service.world.build" optional="true"/>
     <import addon="script.embuary.info" optional="true"/>
+    <import addon="script.extendedinfo" optional="true"/>
     <import addon="script.sites" optional="true"/>
   </requires>
   <extension
