@@ -51,7 +51,7 @@
 
 <addon
   id="skin.19MatrixWorld"
-  version="1.1"
+  version="21.0.1"
   name="Skin World-beta"
   provider-name="Helly,bsoriano,Diggz,Tk,Gb,ML,World,AI">
   <requires>
@@ -75,7 +75,7 @@
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="el">Τροποποιημένο Xonfluence Skin για το World Build (Kodi Omega).</summary>
+    <summary lang="el">Τροποποιημένο Xonfluence Skin για το World Build (Kodi 21 &amp; 22).</summary>
     <summary lang="en">eXtended MOD of Confluence skin for World Build (originally by Jezz_X and Mudislander).</summary>
     <description lang="el">Ειδικά διαμορφωμένο Skin βασισμένο στο Xonfluence, σχεδιασμένο για πλήρη παραμετροποίηση και άμεση πλοήγηση.[CR][CR][COLOR orange]Σημαντική Σημείωση:[/COLOR] Για να λειτουργήσουν σωστά όλες οι συντομεύσεις, τα widgets και οι καρτέλες του skin, απαιτούνται ορισμένα βασικά πρόσθετα (όπως TheMovieDb Helper, YouTube, script.favourites κ.ά.). Όλα τα απαραίτητα εργαλεία, πρόσθετα και υπηρεσίες θα τα βρείτε διαθέσιμα μέσα από το [B][COLOR gold]World Repository[/COLOR][/B] και μέσω του [B][COLOR orange]World Build[/COLOR][/B].</description>
     <description lang="en">Customised Xonfluence MOD skin designed for World Build.[CR][CR][COLOR orange]Note:[/COLOR] For full functionality of all shortcuts and widgets, essential addons (such as TheMovieDb Helper, YouTube, script.favourites, etc.) are required. All supporting tools and addons can be found in the [B][COLOR gold]World Repository[/COLOR][/B] and via [B][COLOR orange]World Build[/COLOR][/B].</description>
@@ -100,7 +100,13 @@
       <screenshot>resources/screenshot-08.jpg</screenshot>
       <screenshot>resources/screenshot-09.jpg</screenshot>
     </assets>
-    <news>See changelog for latest changes</news>
+    <news>
+21.0.1 (World Build Edition)
+ - Compatible with Kodi 21 (Omega) &amp; Kodi 22 (Piers)
+ - Auto-initialization of default World Build skin settings on clean install
+ - Updated HUB metadata layout (Poster + Plot + Original Title + Fanart)
+ - Improved DialogVideoInfo actor navigation and remote focus
+    </news>
   </extension>
 </addon>
 </addons>
